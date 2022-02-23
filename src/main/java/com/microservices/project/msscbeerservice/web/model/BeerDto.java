@@ -54,6 +54,6 @@ public class BeerDto {
 
 
     private Integer quantityOnHand;
-    private int unknown ;
+
 
 }
