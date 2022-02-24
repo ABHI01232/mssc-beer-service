@@ -1,4 +1,4 @@
-package com.microservices.project.msscbeerservice.web.repositories;
+package com.microservices.project.msscbeerservice.repositories;
 
 import com.microservices.project.msscbeerservice.domain.Beer;
 import org.springframework.data.repository.PagingAndSortingRepository;
