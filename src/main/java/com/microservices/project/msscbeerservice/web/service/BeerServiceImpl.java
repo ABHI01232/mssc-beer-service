@@ -1,7 +1,7 @@
 package com.microservices.project.msscbeerservice.web.service;
 
 import com.microservices.project.msscbeerservice.domain.Beer;
-import com.microservices.project.msscbeerservice.repositories.BeerRepository;
+import com.microservices.project.msscbeerservice.web.repositories.BeerRepository;
 import com.microservices.project.msscbeerservice.web.controller.NotFoundException;
 import com.microservices.project.msscbeerservice.web.mappers.BeerMapper;
 import com.microservices.project.msscbeerservice.web.model.BeerDto;

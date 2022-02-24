@@ -1,7 +1,7 @@
 package com.microservices.project.msscbeerservice.bootstrap;
 
 import com.microservices.project.msscbeerservice.domain.Beer;
-import com.microservices.project.msscbeerservice.repositories.BeerRepository;
+import com.microservices.project.msscbeerservice.web.repositories.BeerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
