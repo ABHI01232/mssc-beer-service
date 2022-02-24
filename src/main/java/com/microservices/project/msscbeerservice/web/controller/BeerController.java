@@ -3,6 +3,7 @@ package com.microservices.project.msscbeerservice.web.controller;
 import com.microservices.project.msscbeerservice.web.model.BeerDto;
 import com.microservices.project.msscbeerservice.web.service.BeerService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -14,6 +15,8 @@ import java.util.UUID;
 @RequestMapping("/api/v1/beer")
 @RestController
 public class BeerController {
+
+    @Autowired
     private final BeerService beerService;
 
     @GetMapping("/{beerId}")
